@@ -131,4 +131,4 @@ bot.on("message", async msg => {
 function Timer(Combien, mois, seconds, heure, Jours, minutes){
   
 };
-bot.login(config.Token);
+bot.login(process.env.Token);
