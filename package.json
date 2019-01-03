@@ -1,0 +1,20 @@
+{
+  "name": "jiffeo",
+  "version": "0.0.1",
+  "description": "bot reserver pour jiffeo ",
+  "main": "index.js",
+  "scripts": {
+    "test": "!test"
+  },
+  "keywords": [
+    "jiffeo"
+  ],
+  "author": "Staff Bot",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^4.0.0",
+    "opusscript": "0.0.6",
+    "ytdl-core": "^0.28.3"
+  }
+}
