@@ -8,21 +8,15 @@ const prefix = config.prefix
 const AFF = require("./Affichage.json")
 bot.commands = new Discord.Collection();
 
-
-
-
-
-
 // function
 
 // ----------------------------------
 // Var
 let Staff = [
-  "407859588759552000",
-  "252843903131189248"
+  "Your id discord",
+  "Exemple 28564685185641578"
 ]
 // ----------------------------------
-
 
 bot.on("ready", async () => {
   console.log(" ");
@@ -123,12 +117,8 @@ bot.on("message", async msg => {
 
   if(cmd) cmd.run(bot, msg, args);
 
-
-
 });
 
-
 function Timer(Combien, mois, seconds, heure, Jours, minutes){
-  
 };
 bot.login(process.env.Token);
